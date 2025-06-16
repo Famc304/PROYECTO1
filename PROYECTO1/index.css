@@ -1,0 +1,227 @@
+footer{
+    background-color: #2d2e2e;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+    padding-top: 26px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    height: 100px;
+    border-radius: 10px;
+}
+nav.navbar{
+    background-color: #2d2e2e!important;
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: 20px;
+}
+#navbarNav {
+    background-color: #2d2e2e;
+    padding: 10px;
+    z-index: 999;
+    border-radius: 15px;
+}
+#navbarNav a{
+    margin-top: 20px;
+    font-size: 25px;
+   
+}
+.navbar-brand{
+   font-size: 40px;
+   margin-left: 25px;
+
+}
+nav.navbar a{
+    color: rgb(251, 251, 251) !important;
+    
+}
+a.nav-link {
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.iconos-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+.iconos-nav a:hover {
+    color: #ffc107;
+}
+
+.iconos-nav {
+    background-color: #2d2d2d;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer h4{
+   font-size: 24px;
+   margin-top: 10px;
+   font-family: 'Bebas Neue', sans-serif !important;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ footer p,
+ footer li,
+ footer .Horarios{
+   font-family: 'Roboto Condensed', sans-serif;
+ }
+ button.navbar-toggler{
+    background-color: rgb(129, 127, 129);
+ }
+ .Horarios{
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 1px !important;
+
+ }
+ 
+ body{
+   background-color: rgb(255, 255, 255);
+ }
+ .carousel-item{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+h1{
+    font-size: 70px;
+    padding-bottom: 100px;
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif !important;
+    text-shadow: 0 0 5px #56d7cf,0 0 10px #0a0b0b;
+}
+p{
+   font-family: 'Roboto Condensed', sans-serif;
+   text-align:justify;
+   font-size: 18px;
+}
+h2{
+   font-family: 'Bebas Neue', sans-serif !important;
+}
+div.carousel-item img {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  width: auto;
+  left: 50%;
+  object-fit: cover;
+  transform: translateX(-50%);
+}
+
+div.carousel-item {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#DEPORTE{
+  margin-top: 60px;
+  justify-content: center;
+}
+.nav-item.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.deportess {
+  display: none;
+  position: absolute;
+  background-color: #2d2e2e;
+  width: auto;
+  min-width: 300px;
+  padding: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  flex-wrap: nowrap;
+}
+.nav-item.dropdown:hover .deportess {
+  display: flex;
+}
+.nav-item.dropdown:hover .nav-link.desplegable {
+  color: #82A3A1 !important; 
+  transform: scale(1.05); 
+}
+.deportess-main a:hover,
+.deportess-side a:hover {
+  background-color: rgba(130, 163, 161, 0.1);
+  color: #82A3A1;
+  transform: translateX(5px);
+  padding-left: 20px;
+}
+
+.deportess .titulo1:hover {
+  color: #82A3A1;
+  transform: scale(1.02);
+}
+.deportess-main, .deportess-side:hover {
+  padding: 0 15px;
+  color: #82A3A1;
+
+}
+.deportess a {
+  display: block;
+  transition: all 0.3s;
+}
+.deportess a:hover {
+  padding-left: 5px;
+}
+.titulo1{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 3px
+}
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.redes-sociales a {
+    color: #82A3A1; 
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(139, 180, 177, 0.1);
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    color: white;
+    background-color: #82A3A1;
+    transform: translateY(-3px);
+}
+.deportess-main a,
+.deportess-side a {
+  font-family: 'Roboto Condensed', sans-serif !important;
+  font-size: 17px !important;
+  margin-top: 10px !important;
+  text-decoration: none;
+}
+.iconos-nav a:hover {
+  color: #82A3A1 !important; 
+  transform: translateY(-3px);
+}
+#CIUDAD{ 
+ margin-top:80px !important;
+}
+
+
+
+
+
